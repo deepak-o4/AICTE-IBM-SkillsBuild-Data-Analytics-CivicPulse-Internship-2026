@@ -1,0 +1,88 @@
+{
+  "project": "CivicPulse",
+  "dataset_period": "2020-2024",
+  "kpis": {
+    "total_grievances": 639674,
+    "unique_wards": 198,
+    "unique_categories": 32,
+    "unique_subcategories": 151,
+    "top_category": "Electrical",
+    "top_category_count": 267990,
+    "top_ward": "Jnanabharathi Ward",
+    "top_ward_count": 15481,
+    "yearly_counts": {
+      "2020": 91620,
+      "2021": 103504,
+      "2022": 118394,
+      "2023": 119140,
+      "2024": 207016
+    },
+    "status_counts": {
+      "Closed": 592468,
+      "Rejected": 16803,
+      "Non Relevant": 10932,
+      "Registered": 10147,
+      "Resolved": 6953,
+      "Reopen": 1043,
+      "In Progress": 896,
+      "Long Term Solution": 412,
+      "Unknown": 20
+    },
+    "category_top_10": {
+      "Electrical": 267990,
+      "Solid Waste (Garbage) Related": 157002,
+      "Road Maintenance(Engg)": 97411,
+      "Forest": 28293,
+      "Health Dept": 26546,
+      "Veterinary": 17847,
+      "Road Infrastructure": 10155,
+      "Others": 5977,
+      "Storm Water Drain(Swd)": 5634,
+      "Town Planning": 4050
+    },
+    "ward_top_10": {
+      "Jnanabharathi Ward": 15481,
+      "Rajarajeshwari Nagar": 14646,
+      "Horamavu": 14309,
+      "Begur": 14015,
+      "Thanisandra": 12366,
+      "Hemmigepura": 11981,
+      "Bellandur": 10998,
+      "Jakkur": 10292,
+      "Uttarahalli": 10042,
+      "Ramamurthy Nagar": 9346
+    }
+  },
+  "figures": {
+    "yearly_trend": "/Users/deepakspc/Downloads/CivicPulse/outputs/figures/yearly_trend.png",
+    "category_distribution": "/Users/deepakspc/Downloads/CivicPulse/outputs/figures/category_distribution.png",
+    "ward_demand": "/Users/deepakspc/Downloads/CivicPulse/outputs/figures/ward_demand.png",
+    "status_distribution": "/Users/deepakspc/Downloads/CivicPulse/outputs/figures/status_distribution.png"
+  },
+  "ml": {
+    "best_k": 2,
+    "silhouette_score": 0.2125,
+    "cluster_summary": {
+      "wards": {
+        "0": 62,
+        "1": 136
+      },
+      "avg_grievances": {
+        "0": 3814.016129032258,
+        "1": 2964.7426470588234
+      },
+      "avg_category_diversity": {
+        "0": 23.193548387096776,
+        "1": 20.308823529411764
+      },
+      "pct_closed": {
+        "0": 0.9023437204224396,
+        "1": 0.9393481953738442
+      },
+      "pct_rejected": {
+        "0": 0.036345394521473645,
+        "1": 0.021690936651019604
+      }
+    }
+  }
+}
